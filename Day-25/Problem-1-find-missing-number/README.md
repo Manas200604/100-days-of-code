@@ -2,7 +2,7 @@
 
 - **Topic:** Array
 - **Difficulty:** Easy
-- **Language:** CPP
+- **Language:** PYTHON
 - **Live Challenge:** [View on 100 Days of Code Platform](https://challenge.atharvabaodhankar.me/day/25)
 
 ---
