@@ -1,0 +1,20 @@
+def missingNumber(nums):
+    n = len(nums)
+
+    expected_sum = n * (n + 1) // 2
+
+    actual_sum = sum(nums)
+
+    return expected_sum - actual_sum
+
+
+nums1 = [3, 0, 1]
+print("Missing number:", missingNumber(nums1))
+
+
+nums2 = [0, 1]
+print("Missing number:", missingNumber(nums2))
+
+
+nums3 = [9, 6, 4, 2, 3, 5, 7, 0, 1]
+print("Missing number:", missingNumber(nums3))
